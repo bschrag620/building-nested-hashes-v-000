@@ -22,7 +22,6 @@ def bonus
   epic_tragedy.each do |family, roles|
     roles.each do |role, values|
       if role == :hero || role == :heroine
-        puts "role is #{epic_tragedy[family][role]}"
         epic_tragedy[family][role][:status] = 'dead'
       end
     end
