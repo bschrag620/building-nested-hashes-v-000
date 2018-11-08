@@ -24,6 +24,7 @@ def bonus
       if role == :hero
         role[:status] = 'dead'
       elsif role == :heroine
+        puts "role is #{role}"
         role[:status] = 'dead'
       end
     end
