@@ -19,7 +19,13 @@ def bonus
       ]
    }
   }
-
+  epic_tragedy.each do |family, roles|
+    roles.each do |role, values|
+      if role.match(/^hero.*/)
+        values[:status] = "dead"
+      end
+    end
+  end
   #code your solution here:
 
   
