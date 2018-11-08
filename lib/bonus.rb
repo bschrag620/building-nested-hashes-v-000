@@ -22,10 +22,10 @@ def bonus
   epic_tragedy.each do |family, roles|
     puts roles
     roles.each do |role, values|
-      puts role
-      if role.match(/^:heroi?n?e?\z/)
-        puts values
-        values[:status] = "dead"
+      if role == :hero
+        role[:status] = 'dead'
+      elsif role == :heroine
+        role[:status] = 'dead'
       end
     end
   end
