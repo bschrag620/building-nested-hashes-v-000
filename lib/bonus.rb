@@ -23,7 +23,7 @@ def bonus
     puts roles
     roles.each do |role, values|
       puts role
-      if role.match(/^hero.*/)
+      if role.match(/^:heroi?n?e?\z/)
         puts values
         values[:status] = "dead"
       end
