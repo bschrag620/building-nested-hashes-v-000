@@ -11,7 +11,6 @@ def fourth_challenge
                         :age => "18",
                         :attitude => "hot-headed"}]
         #your hashes here!
-      ]
    },
    :capulet => {
       :patriarch => {name: "Lord Capulet", age: "50"},
@@ -24,7 +23,6 @@ def fourth_challenge
                         :age => "44",
                         :attitude => "worried"}]
         #your hashes here!
-      ]
    }
 }
 
